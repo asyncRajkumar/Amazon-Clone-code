@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+
+    display: flex;
+    align-items: center;
+    background-color: #0f1111;
+
+    height: 60px;
+    color: white;
+
+    justify-content: space-evenly;
+}
+
+.logo {
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.logo img {
+    width: 106px;
+    height: 38px;
+    padding: 1px 8px 0 6px;
+
+}
+
+.add {
+    cursor: pointer;
+    /* width: 88px;
+   height: 50px; */
+}
+
+.add p {
+    margin-left: 16px;
+    font-size: 13px;
+    color: rgb(133, 133, 133);
+
+}
+
+
+.nav-select {
+    display: flex;
+
+    border: transparent;
+}
+
+.nav-select select {
+    width: 48px;
+    height: 41px;
+    padding-left: 12px;
+    border: transparent;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    cursor: pointer;
+}
+
+.nav-select input {
+    width: 548px;
+    height: 41px;
+    border-radius: 0;
+    border: transparent;
+    padding-left: 11px;
+}
+
+.nav-select i {
+    font-size: 19px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(216, 112, 0);
+    height: 41px;
+    width: 48px;
+    border: transparent;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+}
+
+.country {
+    display: flex;
+    cursor: pointer;
+}
+
+.country img {
+    width: 25px;
+}
+
+.country select {
+    width: 15px;
+    height: 17px;
+    background: transparent;
+    color: white;
+    border: transparent;
+}
+
+.country p {
+    padding-left: 4px;
+}
+
+.welc .welcome {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.welc select {
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.order {
+    cursor: pointer;
+}
+
+.order .order1 {
+    font-size: 12px;
+}
+
+.order .order2 {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.cart {
+    display: flex;
+    cursor: pointer;
+}
+
+.cart i {
+    font-size: 30px;
+}
+
+.cart p {
+    margin-top: 13px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.border {
+    border: .7px solid transparent;
+    border-radius: 0;
+}
+
+.border:hover {
+    border: .7px solid white;
+    border-radius: 2px;
+}
+
+.main {
+    background-color: #232f32;
+    height: 39px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.main .panel i {
+    font-size: 18px;
+
+}
+
+.main .panel {
+    width: 58px;
+    padding-left: 22px;
+    cursor: pointer;
+}
+
+.main .sell {
+    display: flex;
+    width: 990px;
+}
+
+.main .sell p {
+    margin: 11px;
+    cursor: pointer;
+}
+
+.main .shop {
+    width: 182px;
+    cursor: pointer;
+}
+
+.hero {
+    background-image: url(Img/hero.jpg);
+    height: 317px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center
+}
+
+.hero p {
+    background-color: #f5f6f6;
+    width: 97%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 27px;
+    font-size: 14px;
+}
+
+.hero p a {
+    text-decoration: none;
+    color: rgb(38, 84, 148);
+}
+
+.hero p a:hover {
+    color: #C7511F;
+    text-decoration: underline
+}
+
+.box {
+
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box1 {
+    height: 405px;
+    width: 289px;
+    background-color: white;
+    margin: 0 19px;
+    padding: 0 20px;
+}
+
+.box1 h2 {
+    margin: 14px 5px 2px 1px;
+    height: 34px;
+    font-size: 20px;
+
+}
+
+.box .box-contain1 {
+    background-image: url(Img/box1.jpg);
+    height: 295px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.box p {
+
+    padding-top: 19px;
+}
+
+.box p a {
+    text-decoration: none;
+    color: rgb(38, 84, 148);
+}
+
+.box p a:hover {
+    color: #C7511F;
+}
+
+.box2 {
+    height: 405px;
+    width: 289px;
+    background-color: white;
+    margin: 0 1px;
+    padding: 0 20px;
+}
+
+.box2 h2 {
+    margin: 14px 5px 2px 1px;
+    height: 34px;
+    font-size: 20px;
+
+}
+
+.box .box-contain2 {
+    background-image: url(Img/box2.jpg);
+    height: 295px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.box p {
+
+    padding-top: 19px;
+}
+
+.box p a {
+    text-decoration: none;
+    color: rgb(38, 84, 148);
+}
+
+.box3 {
+    height: 405px;
+    width: 289px;
+    background-color: white;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+.box3 h2 {
+    margin: 14px 5px 2px 1px;
+    height: 34px;
+    font-size: 20px;
+
+}
+
+.box .box-contain3 {
+    background-image: url(img/box3.jpg);
+    height: 295px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.box p {
+
+    padding-top: 19px;
+}
+
+.box p a {
+    text-decoration: none;
+    color: rgb(38, 84, 148);
+}
+
+.box4 {
+    height: 405px;
+    width: 289px;
+    background-color: white;
+    margin: 0 20px 0 1px;
+    padding: 0 20px;
+}
+
+.box4 h2 {
+    margin: 14px 5px 2px 1px;
+    height: 34px;
+    font-size: 20px;
+
+}
+
+.box .box-contain4 {
+    background-image: url(Img/box4.jpg);
+    height: 295px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.box p {
+
+    padding-top: 19px;
+}
+
+.box p a {
+    text-decoration: none;
+    color: rgb(38, 84, 148);
+}
+
+.container {
+    background-color: rgba(174, 145, 145, 0.489);
+}
+
+.lable1 {
+    background-color: white;
+    margin: -5px 20px 0 20px;
+    height: 270px;
+    display: flex;
+    padding-top: 49px;
+    padding-right: 19px;
+}
+
+.lable1 .book1 {
+    height: 200px;
+    width: 134px;
+    background-size: cover;
+    cursor: pointer;
+    margin-left: 19px;
+}
+
+footer .fot1 {
+    height: 49px;
+    background-color: #131a22;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .fot1 p {
+    font-size: 14px;
+}
+
+.fot2 p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.fot2 a {
+    color: #dddddd;
+    display: block;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.fot {
+    background-color: #232f32;
+    display: flex;
+    justify-content: space-evenly;
+    height: 304px;
+    padding-top: 40px;
+}
+
+.fot2 a:hover {
+    text-decoration: underline;
+}
+
+.last {
+    background-color: #232f32;
+    height: 107px;
+    border-top: 0.123px solid #cccccc;
+    display: flex;
+    align-items: center;
+}
+
+.last .last1 {
+    background-image: url(Img/amazon_PNG11.png);
+    width: 86px;
+    height: 30px;
+    font-size: 12px;
+    background-size: cover;
+    margin-left: 333px;
+    cursor: pointer;
+}
+
+.last .last2 {
+    margin-left: 67px;
+    padding-bottom: 2px;
+}
+
+.last .last2 button {
+    background: transparent;
+    color: white;
+    border: 0.7px solid white;
+    border-radius: 2.4px;
+    width: 116px;
+    height: 33px;
+    padding: 6px 18px 6px 8px;
+    cursor: pointer;
+}
+
+.last .last2 span {
+    color: #cccccc;
+    font-size: 13px;
+}
+
+.last3 {
+    margin-left: 8px;
+    margin-bottom: 3px;
+}
+
+.last .last3 button {
+    background: transparent;
+    color: white;
+    border: 0.7px solid white;
+    border-radius: 2.4px;
+    width: 155px;
+    height: 33px;
+    padding: 6px 18px 6px 8px;
+    cursor: pointer;
+}
+
+.last3 span {
+    color: #cccccc;
+    font-size: 13px;
+}
+
+.last4 {
+    margin-left: 7px;
+    margin-bottom: 2px;
+}
+
+.last4 img {
+    width: 18px;
+    height: 12px;
+}
+
+.last4 button {
+    background: transparent;
+    color: white;
+    border: 0.7px solid white;
+    border-radius: 2.4px;
+    width: 150px;
+    height: 33px;
+    padding: 6px 18px 6px 8px;
+    cursor: pointer;
+}
+
+.last4 span {
+    color: #cccccc;
+    font-size: 13px;
+}
+
+.copy {
+    height: 74px;
+    background-color: #131a22;
+    color: #dddddd;
+
+}
+
+.copy p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.copy .copy1 p {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.copy .copy1 p:hover {
+    text-decoration: underline;
+}
